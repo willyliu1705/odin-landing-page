@@ -97,7 +97,7 @@ a {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .cards-section {
@@ -132,4 +132,27 @@ a {
 
 .captions {
   color: rgb(103, 102, 102);
+}
+
+.third-section {
+  padding: 10px 350px;
+  background-color: #E5E7EB;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 30px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 50px;
 }
