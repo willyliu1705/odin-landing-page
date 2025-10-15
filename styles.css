@@ -18,7 +18,7 @@ body {
 
 .first-section {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  padding: 10px 100px;
+  padding: 10px 350px;
   height: 40vh;
   background-color: #1F2937;
 }
@@ -26,6 +26,10 @@ body {
 .nav-bar,
 .hero-area {
   gap: 16px;
+}
+
+.hero-area {
+  justify-content: space-between;
 }
 
 .nav-bar {
