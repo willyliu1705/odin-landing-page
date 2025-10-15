@@ -19,6 +19,7 @@ body {
 .first-section {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 10px 350px;
+  margin-bottom: 30px;
   height: 40vh;
   background-color: #1F2937;
 }
@@ -84,4 +85,35 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.second-section {
+  text-align: center;
+  padding: 10px 350px;
+}
+
+.information-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  /* TODO: to center the images, try placing a flex container on .card */
+}
+
+.images {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }
