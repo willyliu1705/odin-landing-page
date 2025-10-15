@@ -19,7 +19,7 @@ body {
 .first-section {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 10px 350px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   height: 40vh;
   background-color: #1F2937;
 }
@@ -90,7 +90,7 @@ a {
 .second-section {
   text-align: center;
   padding: 10px 350px;
-  height: 40vh;
+  height: 37vh;
 }
 
 .information-text {
@@ -155,4 +155,41 @@ a {
   font-size: 18px;
   font-weight: bold;
   padding-right: 50px;
+}
+
+.fourth-section {
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-box {
+  background-color: #3882F6;
+  padding: 30px 80px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.action-call-text .main-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.action-call-text .secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+#call-to-action-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px #F9FAF8 solid;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
 }
